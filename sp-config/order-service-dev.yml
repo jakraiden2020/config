@@ -1,14 +1,9 @@
 spring:
   application:
     name: order-service   # 服务id
-cloud:
-config:
-override-none: true
 
-
-
-server:
-  port: 8201      # 端口号
+#server:
+#  port: 8201      # 端口号
 
 eureka:
   client:
@@ -24,3 +19,15 @@ management:
     web:
       exposure:
         include: hystrix.stream
+
+---
+spring:
+  profiles: order1
+server:
+  port: 8201
+
+---
+spring:
+  profiles: order2
+server:
+  port: 8202

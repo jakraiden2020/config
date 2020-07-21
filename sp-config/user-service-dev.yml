@@ -5,15 +5,13 @@ sp:
 spring:
   application:
     name: user-service      # 服务id
-cloud:
-config:
-override-none: true
 
-
-server:
-  port: 8101    # 端口号
+#server:
+#  port: 8101    # 端口号
 
 eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+
+
