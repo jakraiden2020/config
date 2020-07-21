@@ -5,6 +5,10 @@ sp:
 spring:
   application:
     name: user-service      # 服务id
+cloud:
+config:
+override-none: true
+
 
 server:
   port: 8101    # 端口号

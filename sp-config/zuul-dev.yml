@@ -1,6 +1,10 @@
 spring:
   application:
     name: zuul      # 服务id
+cloud:
+config:
+override-none: true
+
 
 server:
   port: 3001      # 端口号
