@@ -4,10 +4,10 @@ sp:
 
 spring:
   application:
-    name: user-service
+    name: user-service      # 服务id
 
 server:
-  port: 8101
+  port: 8101    # 端口号
 
 eureka:
   client:

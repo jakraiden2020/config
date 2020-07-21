@@ -1,9 +1,9 @@
 spring:
   application:
-    name: order-service
+    name: order-service   # 服务id
 
 server:
-  port: 8201
+  port: 8201      # 端口号
 
 eureka:
   client:
