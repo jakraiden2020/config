@@ -1,6 +1,12 @@
 spring:
   application:
     name: order-service   # 服务id
+  # rabbitmq 连接信息
+  rabbitmq:
+    host: 192.168.88.132
+    port: 5672
+    username: admin
+    password: admin
 
 #server:
 #  port: 8201      # 端口号
